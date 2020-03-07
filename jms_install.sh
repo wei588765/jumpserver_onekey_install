@@ -23,7 +23,7 @@ DB_NAME=jumpserver
 # Redis配置 根据实际情况修改连接 
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
-REDIS_PASSWORD=q2ALmCq5iOvzxTxgeOOjj29sq2ALmCq5iOvzxTDgeOOjj29s
+REDIS_PASSWORD=123456
 
 # 修改到此结束
 #----------------------------
