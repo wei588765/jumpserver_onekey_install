@@ -10,10 +10,11 @@
 3. 服务器基本配置需求请参考官网
 
 安装步骤：
-1. cd /opt
-2. git clone https://github.com/wei588765/jumpserver_onekey_install.git
-3. mv /opt/jumpserver_onekey_install/jms_install.sh /opt
-4. sh /opt/jms_install
+1. 进入opt目录：cd /opt
+2. 下载脚本：git clone https://github.com/wei588765/jumpserver_onekey_install.git
+3. 移动脚本到opt目录：mv /opt/jumpserver_onekey_install/jms_install.sh /opt
+4. 配置数据库密钥等信息：vim /opt/jms_install.sh
+5. 执行脚本：sh /opt/jms_install.sh
 
 # 常见错误
 问题1：邮箱无法使用
